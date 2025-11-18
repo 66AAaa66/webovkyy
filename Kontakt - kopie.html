@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt – Fyzioterapie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Fyzioterapie a kinezioterapie</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Úvod</a></li>
+            <li><a href="onas.html">O nás</a></li>
+            <li><a href="sluzby.html">Naše služby</a></li>
+            <li><a href="cenik.html">Ceník</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h2>Kontaktujte nás</h2>
+    <p>Jsme tu pro vás. Objednat se můžete telefonicky, e-mailem nebo prostřednictvím online formuláře. Rádi vám pomůžeme s jakýmkoliv dotazem ohledně rehabilitace a kinezioterapii.</p>
+
+    <p>Naše ordinace je blízko MHD i parkování. Těšíme se na vaši návštěvu a věříme, že vám pomůžeme najít cestu ke zdravému pohybu.</p>
+
+    <h3>Pododkazy</h3>
+    <ul>
+        <li><a href="#adresa">Naše adresa</a></li>
+        <li><a href="#oteviraci">Otevírací doba</a></li>
+    </ul>
+
+    <h4 id="adresa">Naše adresa</h4>
+    <p>Fyziokin.cz, Kladno, Norská 5555 <br>Tel.: +420 123 456 789<br>Email: info@fyziokin.cz</p>
+
+    <h4 id="oteviraci">Otevírací doba</h4>
+    <p>Pondělí – Pátek: 8:00 – 16:00 <br>Sobota: dle objednání</p>
+</main>
+
+<footer>
+    <p>&copy; 2025 Fyziokin.cz</p>
+</footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+
+<html lang="cs">
+
+<head>
+
+<meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>Dynamický čas</title>
+
+<style>
+
+body { font-family: Arial, sans-serif; background: #f4f4f4; padding: 20px; }
+
+#casBox { font-size: 1.5rem; font-weight: bold; color: #333; }
+
+</style>
+
+</head>
+
+<body>
+
+<h2>Dynamický prvek: aktuální čas</h2>
+
+<div id="casBox">Načítám čas...</div>
+
+<script>
+
+function aktualizovatCas() {
+
+  document.getElementById("casBox").textContent = new Date().toLocaleTimeString();
+
+}
+
+setInterval(aktualizovatCas, 1000);
+
+aktualizovatCas();
+
+</script>
+
+</body>
+
+</html>
+
+```
